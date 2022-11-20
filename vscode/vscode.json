@@ -1,0 +1,234 @@
+{
+	"name": "OKSolar Minimal ($style)",
+	"type": "$style",
+	"colors": {
+		"editor.background": "$base03",
+		"editor.foreground": "$base0",
+		"editorLineNumber.foreground": "$highlight01",
+		"editorCursor.foreground": "$base1",
+
+		"editor.selectionBackground": "$highlight02",
+		"editor.selectionHighlightBackground": "${highlight02}80",
+		"editor.inactiveSelectionBackground": "$highlight03",
+		"editor.wordHighlightBackground": "$highlight03",
+		"editor.wordHighlightStrongBackground": "$highlight03",
+		"editor.findMatchBackground": "$highlight02",
+		"editor.findMatchHighlightBackground": "$highlight03",
+		"editor.findRangeHighlightBackground": "$base04",
+		"editor.hoverHighlightBackground": "$highlight02",
+		"editor.lineHighlightBackground": "$base02",
+		"editorLink.activeForeground": "$blue",
+		"editor.rangeHighlightBackground": "$base02",
+
+		"editorWhitespace.foreground": "$base02",
+		"editorIndentGuide.background": "$base02",
+		"editorRuler.foreground": "$highlight01",
+
+		"editorCodeLens.foreground": "$base01",
+		"editorBracketMatch.background": "$base02",
+		"editorBracketMatch.border": "$base1",
+
+		"editorOverviewRuler.border": "$highlight01",
+		"editorOverviewRuler.findMatchForeground": "$highlight02",
+		"editorOverviewRuler.rangeHighlightForeground": "$base02",
+		"editorOverviewRuler.selectionHighlightForeground": "$highlight02",
+		"editorOverviewRuler.wordHighlightForeground": "$base02",
+		"editorOverviewRuler.wordHighlightStrongForeground": "$highlight02",
+
+		"editorOverviewRuler.modifiedForeground": "${blue}a0",
+		"editorOverviewRuler.addedForeground": "${green}a0",
+		"editorOverviewRuler.deletedForeground": "${red}a0",
+		"editorOverviewRuler.errorForeground": "${red}a0",
+		"editorOverviewRuler.warningForeground": "${green}a0",
+		"editorOverviewRuler.infoForeground": "${green}a0",
+
+		"editorError.foreground": "$red",
+		"editorWarning.foreground": "$green",
+		"editorInfo.foreground": "$green",
+
+		"editorGutter.background": "$base03",
+		"editorGutter.modifiedBackground": "${blue}b8",
+		"editorGutter.addedBackground": "${green}b8",
+		"editorGutter.deletedBackground": "${red}b8",
+
+		"diffEditor.insertedTextBackground": "${green}30",
+		"diffEditor.removedTextBackground": "${red}38",
+
+		"peekView.border": "$blue",
+		"peekViewEditor.background": "$base04",
+		"peekViewEditorGutter.background": "$base04",
+		"peekViewEditor.matchHighlightBackground": "$base03",
+
+		"merge.currentHeaderBackground": "${green}60",
+		"merge.currentContentBackground": "${green}20",
+		"merge.incomingHeaderBackground": "${blue}60",
+		"merge.incomingContentBackground": "${blue}20",
+		"merge.commonHeaderBackground": "${base01}60",
+		"merge.commonContentBackground": "${base01}20",
+		"editorOverviewRuler.currentContentForeground": "${green}60",
+		"editorOverviewRuler.incomingContentForeground": "${blue}60",
+		"editorOverviewRuler.commonContentForeground": "${base01}60"
+	},
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "${base03}ff",
+				"foreground": "${base0}ff"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "$base01"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": [
+				"constant",
+				"support.constant"
+			],
+			"settings": {
+				"foreground": "$cyan"
+			}
+		},
+		{
+			"name": "Entity",
+			"scope": "entity",
+			"settings": {
+				"foreground": "$blue"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"foreground": "$red"
+			}
+		},
+		{
+			"name": "Invalid deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"foreground": "$magenta"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "$green"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"foreground": "$yellow"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "$cyan"
+			}
+		},
+		{
+			"name": "Support",
+			"scope": "support",
+			"settings": {
+				"foreground": "$yellow"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "$blue"
+			}
+		},
+		{
+			"name": "Markup underline",
+			"scope": "markup.underline",
+			"settings": {
+				"foreground": "$violet"
+			}
+		},
+		{
+			"name": "Markup bold",
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup heading",
+			"scope": "markup.heading",
+			"settings": {
+				"foreground": "$orange"
+			}
+		},
+		{
+			"name": "Markup italic",
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup block quote",
+			"scope": [
+				"markup.quote",
+				"markup.raw"
+			],
+			"settings": {
+				"foreground": "$cyan"
+			}
+		},
+		{
+			"name": "Markup deleted",
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "$red"
+			}
+		},
+		{
+			"name": "Markup inserted",
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "$green"
+			}
+		},
+		{
+			"name": "Markup changed",
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "$yellow"
+			}
+		},
+		{
+			"name": "Markup ignored",
+			"scope": "markup.ignored",
+			"settings": {
+				"foreground": "$base01"
+			}
+		},
+		{
+			"name": "Markup untracked",
+			"scope": "markup.untracked",
+			"settings": {
+				"foreground": "$base01"
+			}
+		},
+		{
+			"name": "Meta diff",
+			"scope": "meta.diff",
+			"settings": {
+				"foreground": "$blue"
+			}
+		}
+	]
+}

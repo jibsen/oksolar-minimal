@@ -1,0 +1,163 @@
+{
+    "name": "OKSolar Minimal ($style)",
+    "author": "Joergen Ibsen (OKSolar palette by Zack Voase)",
+    "variables":
+    {
+        "base03": "$base03",
+        "base02": "$base02",
+        "base01": "$base01",
+        "base00": "$base00",
+        "base0": "$base0",
+        "base1": "$base1",
+        "base2": "$base2",
+        "base3": "$base3",
+        "yellow": "$yellow",
+        "orange": "$orange",
+        "red": "$red",
+        "blue": "$blue",
+        "magenta": "$magenta",
+        "violet": "$violet",
+        "cyan": "$cyan",
+        "green": "$green"
+    },
+    "globals":
+    {
+        "foreground": "var(base0)",
+        "background": "var(base03)",
+        "accent": "var(blue)",
+        "caret": "var(base1)",
+        "invisibles": "var(base02)",
+        "line_highlight": "var(base02)",
+        "selection": "var(base00)",
+        "selection_foreground": "var(base03)",
+        "selection_border": "var(base01)",
+        "inactive_selection": "var(base01)",
+        "inactive_selection_foreground": "var(base03)",
+        "misspelling": "var(red)",
+        "minimap_border": "var(base01)",
+        "gutter": "var(base03)",
+        "gutter_foreground": "var(base01)",
+        "shadow": "var(base02)",
+        "guide": "var(base02)",
+        "active_guide": "var(base01)",
+        "stack_guide": "var(base02)",
+        "highlight": "var(base00)",
+        "find_highlight_foreground": "var(base03)",
+        "find_highlight": "var(base0)",
+        "brackets_options": "underline",
+        "brackets_foreground": "var(base1)",
+        "bracket_contents_options": "underline",
+        "bracket_contents_foreground": "var(base0)",
+        "tags_options": "stippled_underline",
+        "tags_foreground": "var(base0)"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(base01)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Constant",
+            "scope": "constant, support.constant",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Entity",
+            "scope": "entity",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Support",
+            "scope": "support",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Markup underline",
+            "scope": "markup.underline",
+            "foreground": "var(violet)"
+        },
+        {
+            "name": "Markup bold",
+            "scope": "markup.bold",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markup heading",
+            "scope": "markup.heading",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Markup italic",
+            "scope": "markup.italic",
+            "font_style": "italic"
+        },
+        {
+            "name": "Markup block quote",
+            "scope": "markup.quote, markup.raw",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Markup deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Markup inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Markup changed",
+            "scope": "markup.changed",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Markup ignored",
+            "scope": "markup.ignored",
+            "foreground": "var(base01)"
+        },
+        {
+            "name": "Markup untracked",
+            "scope": "markup.untracked",
+            "foreground": "var(base01)"
+        },
+        {
+            "name": "Meta diff",
+            "scope": "meta.diff",
+            "foreground": "var(blue)"
+        }
+    ]
+}
